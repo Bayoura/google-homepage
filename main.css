@@ -1,0 +1,36 @@
+input {
+    background: url(images/loupe.png) no-repeat;
+    background-size: 15px;
+    padding-left: 20px;
+}
+
+nav {
+    background: green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+ul li {
+    list-style: none;  
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    padding: 5px;
+}
+
+body {
+    height: 100vh;
+}
+
+li a {
+    background: red;
+    display: block;
+    text-decoration: none;
+}

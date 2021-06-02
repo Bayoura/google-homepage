@@ -2,23 +2,18 @@
 <html>
     <head>
         <title>Google</title>
-        <link
-        rel="stylesheet"
-        href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"  
-        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" 
-        crossorigin="anonymous"
-        />
+        <link href="main.css" rel="stylesheet">
     </head>
     <body>
         <header>
             <nav>
-                <ul>
-                    <li>About</li>
-                    <li>Store</li>
+                <ul id="nav-items-1">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Store</a></li>
                 </ul>
-                <ul>
-                    <li>Gmail</li>
-                    <li>Images</li>
+                <ul id="nav-items-2">
+                    <li><a href="#">Gmail</a></li>
+                    <li><a href="#">Images</a></li>
                     <li></li>
                     <li></li>
                 </ul>
@@ -29,35 +24,32 @@
             <div id="main-container">
                 <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
                 alt="Google logo">
-                <form id="form">
-                    <input type="text" 
-                    id="searchbar" 
-                    title="Search">
-                    <div id="button-container">
-                        <input type="submit"                
-                        id=""                
-                        value="Google Search">
-                        <input type ="submit"
-                        id=""
-                        value="I'm Feeling Lucky">
-                    </div>                    
+                <form id="form">                       
+                        <input type="text" 
+                        id="searchbar" 
+                        title="Search">
+                        <button><img src="images/google-mic.png"></button>                 
                 </form>
-                
+                <div id="button-container">
+                    <button>Google Search</button>
+                    <button>I'm Feeling Lucky</button>
+                </div>   
             </div>
         </main>    
         <footer>
-            <div>
+            <div class="footer-items"
+            id="footer-group-1">
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li><a href="#">Advertising</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">How Search works</a></li>
                 </ul>
-            </div>>
+            </div>
             <div>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</li>
+                    <li><a href="#">Settings</li>
                 </ul>
             </div>
 
